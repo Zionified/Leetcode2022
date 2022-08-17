@@ -18,6 +18,13 @@ public class Leetcode01 {
         for (int i = 0; i < nums.length; i++) {
             if (complement.containsKey(nums[i])) {
                 result[0] = i;
+
+                /*  Map can only retrieve values. Should transform to array if 
+                    want to get the key based on indices:
+                    1. Set<Map.Entry<type1, type2>> s = m.entrySet();
+                    2. Map.Entry<type1, type2>[] arr = s.toArray (new Map.Entry<t1, t2>[sizeof(Map)]);
+                    3. arr[x].getKey()/getValue();
+                */
                 result[1] = complement.get(nums[i]);
             } else {
                 complement.put(target - nums[i], i);
