@@ -8,6 +8,11 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+/* Always try to exploit features of arrays or lists if the requirement is not 
+   intuitive at first glance. Rather use some 'brute-force' and transform the 
+   request to something feasible.
+*/
 class Leetcode19 {
 
     // first find length then remove element starting from the head
