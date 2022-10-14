@@ -1,6 +1,6 @@
-## Getting Started
+## Overview
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the Leetcode2022 repository. This is where I post some of my solutions to classical leetcode practices.
 
 ## Folder Structure
 
